@@ -1,9 +1,12 @@
 class Product < ActiveRecord::Base
+  default_scope :order => 'title'
+  
+  #validation stuf...
   validates :title, :description, :image_url, :presence => true
   validates :price, :numericality => { :greater_then_or_equal_to => 0.01 }
   validates :title, :uniqueness => true
   validates :image_url, :format => {
-    :with => %r{\.(gif|jpg|png)$}i,
-    :message => 'must be a URL fot GIF, JPG or PNG image.'
+            :with => %r{\.(gif|jpg|png)$}i,
+            :message => 'must be a URL fot GIF, JPG or PNG image.'
   }
 end
