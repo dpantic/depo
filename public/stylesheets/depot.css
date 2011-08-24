@@ -163,4 +163,32 @@
 	color: red;
 	float: left;
 }
+
+#store .entry form, #store .entry form div {
+	display: inline;
+}
  
+/*Stylesheet for the cart in the main page */
+
+#store .cart_title {
+	font: 120% bolt;
+}
+
+#store .item_price, #store .total_line {
+	text-align: right;
+}
+
+#store .total_line .total_cell {
+	font-weight: bolt
+	border-top; 1px solid #595;
+}
+
+/* Styles for the cart in the sidebar */
+
+#cart, #cart table {
+	color: yellow;
+	border-top: 1px dotted #fff;
+	border-bottom: ipx dotted #fff;
+	margin-bottom: 10px;
+	font-weight: bold;
+}

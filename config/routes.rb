@@ -1,7 +1,12 @@
 Depo::Application.routes.draw do
-  get "store/index"
+  
+  resources :orders
 
+  resources :line_items
+  resources :carts
   resources :products
+  
+   get "store/index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
