@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+
+  <title>Depo</title>
+  <link href="edit-Dateien/depod.css" media="screen" rel="stylesheet" type="text/css">
+<link href="edit-Dateien/scaffold.css" media="screen" rel="stylesheet" type="text/css">
+  <script src="edit-Dateien/prototype.js" type="text/javascript"></script>
+<script src="edit-Dateien/effects.js" type="text/javascript"></script>
+<script src="edit-Dateien/dragdrop.js" type="text/javascript"></script>
+<script src="edit-Dateien/controls.js" type="text/javascript"></script>
+<script src="edit-Dateien/rails.js" type="text/javascript"></script>
+<script src="edit-Dateien/application.js" type="text/javascript"></script>
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="8NP5XILtf8Jum/9EpKvopNgHuR3rcB23m6ae8P9LXNU=">
+</head><body>
+
+<h1>Editing product</h1>
+
+<form accept-charset="UTF-8" action="/products/1" class="edit_product" id="edit_product_1" method="post"><div style="margin: 0pt; padding: 0pt; display: inline;"><input name="utf8" value="✓" type="hidden"><input name="_method" value="put" type="hidden"><input name="authenticity_token" value="8NP5XILtf8Jum/9EpKvopNgHuR3rcB23m6ae8P9LXNU=" type="hidden"></div>
+
+  <div class="field">
+    <label for="product_title">Title</label><br>
+    <input id="product_title" name="product[title]" size="30" value="Programming Ruby 1.9" type="text">
+  </div>
+  <div class="field">
+    <label for="product_description">Description</label><br>
+    <textarea cols="40" id="product_description" name="product[description]" rows="6">&lt;p
+    Ruby is the fastest growing and most exciting dynamic language out there.
+     If you need to get working programs delivered fast, you should add Ruby 
+     to your toolbox.</textarea>
+  </div>
+  <div class="field">
+    <label for="product_image_url">Image url</label><br>
+    <input id="product_image_url" name="product[image_url]" size="30" value="/image/logo.png" type="text">
+  </div>
+  <div class="field">
+    <label for="product_price">Price</label><br>
+    <input id="product_price" name="product[price]" size="30" value="49.5" type="text">
+  </div>
+  <div class="actions">
+    <input id="product_submit" name="commit" value="Update Product" type="submit">
+  </div>
+</form>
+
+<a href="http://localhost:3000/products/1">Show</a> |
+<a href="http://localhost:3000/products">Back</a>
+
+
+</body></html>

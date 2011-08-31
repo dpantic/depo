@@ -1,0 +1,69 @@
+#START:layout
+#START:main
+#START:cart
+#START:currency
+#START:checkout
+#START:flash
+de:
+
+#END:cart
+#END:checkout
+#END:flash
+#END:main
+#END:layout
+  number:
+    currency:
+      format:
+        unit:      "€"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format:    "%u%n"
+#END:currency
+
+#START:layout
+  layouts:
+    application:
+      title:       "Pragmatic Bücherregal"
+      home:        "Startseite"
+      questions:   "Fragen"
+      news:        "Neuichkeiten"
+      contact:     "Kontakt"
+#END:layout
+
+#START:cart
+  carts:
+    cart:
+      title:       "Dein Einkaufswagen"
+      empty:       "Einkaufswagen leeren"
+      checkout:    "Ausloggen"
+#END:cart
+
+#START:main
+  store:
+    index:
+      title_html:  "Dein Pragmatic Katalog"
+      add:    "Zum Einkaufwagen hinzufügen"
+#END:main
+
+#START:checkout
+  orders:
+    new:
+      legend:       "Bitte Daten eingeben"
+    form:
+      name:         "Name"
+      address_html: "Address"
+      email:        "E-mail"
+      pay_type:     "Bezahlen mit"
+      pay_prompt_html: "Select a payment method"
+      submit:       "Place Order"
+#END:checkout
+
+#START:flash
+  thanks:          "Danke für Ihren Einkauf"
+#END:flash
+
+#START:store
+#  title_html:          "Your Pragmatic Catalog"
+#  add:      "Add to Cart"
+#END:store
