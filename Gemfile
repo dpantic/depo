@@ -1,10 +1,10 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.9'
-<<<<<<< HEAD
-gem 'rails-i18n'
-=======
->>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541
+# gem 'rails', '3.1'
+
+# gem 'rails-i18n'
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -27,11 +27,8 @@ gem 'sqlite3'
 # gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
 
-<<<<<<< HEAD
 gem 'will_paginate', '>= 3.0.pre'
 
-=======
->>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
