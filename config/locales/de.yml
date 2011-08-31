@@ -63,7 +63,3 @@ de:
   thanks:          "Danke für Ihren Einkauf"
 #END:flash
 
-#START:store
-#  title_html:          "Your Pragmatic Catalog"
-#  add:      "Add to Cart"
-#END:store

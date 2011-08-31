@@ -10,11 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema.define(:version => 20110830083939) do
-=======
-ActiveRecord::Schema.define(:version => 20110823225256) do
->>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541
 
   create_table "carts", :force => true do |t|
     t.datetime "created_at"
@@ -32,11 +28,7 @@ ActiveRecord::Schema.define(:version => 20110823225256) do
 
   create_table "orders", :force => true do |t|
     t.string   "name"
-<<<<<<< HEAD
     t.text     "address"
-=======
-    t.text     "adress"
->>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541
     t.string   "email"
     t.string   "pay_type"
     t.datetime "created_at"
@@ -52,7 +44,6 @@ ActiveRecord::Schema.define(:version => 20110823225256) do
     t.datetime "updated_at"
   end
 
-<<<<<<< HEAD
   create_table "users", :force => true do |t|
     t.string   "name"
     t.string   "hashed_password"
@@ -61,6 +52,4 @@ ActiveRecord::Schema.define(:version => 20110823225256) do
     t.datetime "updated_at"
   end
 
-=======
->>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541
 end

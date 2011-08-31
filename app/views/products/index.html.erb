@@ -2,7 +2,7 @@
 <h1>Listing products</h1>
 
 <table>
-<<<<<<< HEAD
+
 	<% @products.each do |product| %>
 	<tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
 		
@@ -43,7 +43,7 @@
 <br />
 
 <%= link_to 'New Product', new_product_path %>
-=======
+
 <% @products.each do |product| %>
 <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
 <td>
@@ -70,4 +70,4 @@
  </div>
 <br />
 <%= link_to 'New product', new_product_path %>
->>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541
+

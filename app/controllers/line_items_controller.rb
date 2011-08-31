@@ -77,21 +77,6 @@ class LineItemsController < ApplicationController
     end
   end
 
-  # PUT /line_items/1
-  # PUT /line_items/1.xml
-  def update
-    @line_item = LineItem.find(params[:id])
-
-    respond_to do |format|
-      if @line_item.update_attributes(params[:line_item])
-        format.html { redirect_to(@line_item, :notice => 'Line item was successfully updated.') }
-        format.xml  { head :ok }
-      else
-        format.html { render :action => "edit" }
-        format.xml  { render :xml => @line_item.errors, :status => :unprocessable_entity }
-      end
-    end
-  end
 
   # DELETE /line_items/1
   # DELETE /line_items/1.xml

@@ -1,5 +1,4 @@
 Depo::Application.routes.draw do
-<<<<<<< HEAD
   get 'admin' => 'admin#index'
   
   controller :sessions do
@@ -7,11 +6,8 @@ Depo::Application.routes.draw do
       post 'login' => :create
       delete 'logout' => :destroy 
   end
+  
   scope '(:locale)' do
-#  get "sessions/new"
-#  get "sessions/create"
-#  get "sessions/destroy"
-
   resources :users
   resources :orders
   resources :line_items
@@ -19,16 +15,6 @@ Depo::Application.routes.draw do
   resources :products do
       get :who_bought, :on => :member
   end
-=======
-  
-  resources :orders
-
-  resources :line_items
-  resources :carts
-  resources :products
-  
-   get "store/index"
->>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -79,20 +65,15 @@ Depo::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-<<<<<<< HEAD
+
   root :to => "store#index", :as => 'store'
-=======
-  root :to => 'store#index', :as => 'store'
->>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541
 
   # See how all your routes lay out with "rake routes"
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id(.:format)))'
-<<<<<<< HEAD
+
  end
 end
-=======
-end
->>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541
+

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #START:layout
 #START:main
 #START:cart
@@ -64,14 +64,7 @@ en:
   thanks:          "Thank you for your order"
 #END:flash
 
-#START:store
-#  title_html:          "Your Pragmatic Catalog"
-#  add:      "Add to Cart"
-#END:store
-=======
-# Sample localization file for English. Add more files in this directory for other locales.
-# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
-en:
-  hello: "Hello world"
->>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541
+
+
+

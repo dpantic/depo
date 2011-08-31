@@ -78,11 +78,10 @@
 }
 
 #banner img {
-<<<<<<< HEAD
+
   float: left;
-=======
   float: right;
->>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541
+
 }
 
 #columns {
@@ -91,11 +90,8 @@
 
 #main {
   margin-left: 17em;
-<<<<<<< HEAD
   padding-top: 4em;
-=======
   padding-top: 4ex;
->>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541
   padding-left: 2em;
   background: white;
 }
@@ -107,12 +103,8 @@
   padding-bottom: 1em;
   width: 16em;
   background: #141;
-<<<<<<< HEAD
-  color: #fff;
-=======
-  
 
->>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541
+  color: #fff;
 }
 
 #side a {
@@ -167,7 +159,7 @@
   font-weight: bold;
   margin-right: 2em;
 }
-<<<<<<< HEAD
+
 #store .entry form, #store .entry form div {
 	display: inline;
 }
@@ -235,7 +227,6 @@
 	padding-top: 0.1px;
 /
 	text-align: center;
-=======
 
 #my_time {
 	font: 'Time New Roman, serif';
@@ -272,5 +263,4 @@
 	border-bottom: ipx dotted #fff;
 	margin-bottom: 10px;
 	font-weight: bold;
->>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541
 }

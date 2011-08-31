@@ -3,17 +3,15 @@ require 'test_helper'
 class ProductsControllerTest < ActionController::TestCase
   setup do
     @product = products(:one)
-<<<<<<< HEAD
     @update = {:title => 'Lorem Ipsum', :description => 'Wibbls are fun!',
         :image_url => 'lorem.jpg', :price => 19.95}
-=======
     @update = {
       :title =>'Lorem Ipsum',
       :description => 'Wibbles are fun',
       :image_url => 'lorem.jpg',
       :price => 19.95
     }
->>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541
+
   end
 
   test "should get index" do
