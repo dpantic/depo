@@ -1,4 +1,5 @@
 class ApplicationController < ActionController::Base
+<<<<<<< HEAD
      before_filter :set_i18n_locale_from_params
       # ...
       before_filter :authorize
@@ -46,3 +47,28 @@ class ApplicationController < ActionController::Base
         end
     end
     
+=======
+#  before_filter :authorize
+  protect_from_forgery
+  
+  private
+  
+  def current_cart
+    Cart.find(session[:cart_id])
+  rescue ActiveRecord::RecordNotFound
+    cart = Cart.create
+    session[:cart_id] = cart.id
+    cart
+  end
+
+   # ...
+
+#    protected
+#      def authorize
+#       unless User.find_by_id(session[:user_id])
+#         redirect_to login_url, :notice => "Please log in"
+#    end
+#  end
+end
+
+>>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541

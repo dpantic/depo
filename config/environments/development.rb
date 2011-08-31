@@ -1,4 +1,5 @@
 Depo::Application.configure do
+<<<<<<< HEAD
     config.action_mailer.delivery_method = :test #:smtp
 
 
@@ -14,6 +15,8 @@ config.action_mailer.smtp_settings = {
 }
 
 
+=======
+>>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on

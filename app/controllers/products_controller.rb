@@ -1,4 +1,5 @@
 class ProductsController < ApplicationController
+<<<<<<< HEAD
     
     #def incomplete
     #    ltasks = Task.find(:all, :conditions => ['comlete ? ', false])
@@ -12,6 +13,8 @@ def who_bought
 end
 
     
+=======
+>>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541
   # GET /products
   # GET /products.xml
   def index

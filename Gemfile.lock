@@ -53,8 +53,11 @@ GEM
       activesupport (= 3.0.9)
       bundler (~> 1.0)
       railties (= 3.0.9)
+<<<<<<< HEAD
     rails-i18n (0.1.6)
       i18n (~> 0.5)
+=======
+>>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541
     railties (3.0.9)
       actionpack (= 3.0.9)
       activesupport (= 3.0.9)
@@ -69,13 +72,20 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.29)
+<<<<<<< HEAD
     will_paginate (3.0.pre2)
+=======
+>>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   rails (= 3.0.9)
+<<<<<<< HEAD
   rails-i18n
   sqlite3
   will_paginate (>= 3.0.pre)
+=======
+  sqlite3
+>>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541

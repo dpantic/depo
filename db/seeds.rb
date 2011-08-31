@@ -5,6 +5,7 @@
 #
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
+<<<<<<< HEAD
 Product.destroy_all
 
 Product.create(:title => 'Programming Ruby 1.9', :description =>
@@ -21,3 +22,13 @@ Product.create(:title => 'Ruby on Rails Book', :description =>
           :image_url => '/images/rails.png',
           :price => 32.50)
      
+=======
+Product.delete_all
+Product.create(:title => 'Programming Ruby 1.9',
+ :description =>
+%{<p> 
+  Ruby is the fastest growing and most exciting dynamic language out there. If you need to get working programs delivered fast, you should add Ruby to your toolbox.
+</p>},
+ :image_url => '/images/ruby.jpg',
+ :price => 42.59)
+>>>>>>> 72a6b0fda60331618bef674b43236ea7b625d541
