@@ -22,13 +22,3 @@ Product.create(:title => 'Ruby on Rails Book', :description =>
           :image_url => '/images/rails.png',
           :price => 32.50)
      
-
-Product.delete_all
-Product.create(:title => 'Programming Ruby 1.9',
- :description =>
-%{<p> 
-  Ruby is the fastest growing and most exciting dynamic language out there. If you need to get working programs delivered fast, you should add Ruby to your toolbox.
-</p>},
- :image_url => '/images/ruby.jpg',
- :price => 42.59)
-
